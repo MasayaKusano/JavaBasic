@@ -20,5 +20,16 @@ public class PTra07_01 {
 
 		// ★ 変数arrayに格納されている値を前から順番に全て表示してください
 
+		
+		int[] array = {1,4,7,10,13};
+		
+		System.out.println(array[0]);
+		System.out.println(array[1]);
+		System.out.println(array[2]);
+		System.out.println(array[3]);
+		System.out.println(array[4]);
+		
+		
+		
 	}
 }

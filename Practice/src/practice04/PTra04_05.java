@@ -21,10 +21,9 @@ public class PTra04_05 {
 
 			System.out.println("あなたの手は？");
 			System.out.println("0:グー、1：チョキ、2：パー");
-
-			// コマンドプロンプトで入力した文字列が変数lineに代入されます
 			String line = scanner.nextLine();
 
+			// コマンドプロンプトで入力し
 			// 文字列を数字に変換して、変数numに代入します
 			// ※ コマンドプロンプトで入力された値が、数字ではなかった場合はプログラムがエラーになり、プログラムが終了します
 			int myHand = Integer.parseInt(line);
@@ -47,20 +46,43 @@ public class PTra04_05 {
 			if (cpuHand == 0) {
 				System.out.println("グー！");
 
+				if(myHand == 2) {
+					//かち
+					System.out.println("プログラムを終了します");
+					winFlg = true;
+				}
+				if(myHand == 0 || myHand ==1) {
+					continue;
+				}
 
 
 			} else if (cpuHand == 1) {
 				System.out.println("チョキ！！");
+				if(myHand == 0) {
+					//かち
+					System.out.println("プログラムを終了します");
+					winFlg = true;
+				}
+				if(myHand == 1 || myHand ==2) {
+					continue;
+				}
 
 
 
 			} else {
 				System.out.println("パー！！");
-
-
-
-			}
-
+				if(myHand == 1) {
+					//かち
+					System.out.println("プログラムを終了します");
+					winFlg = true;
+				}
+				if(myHand == 0 || myHand ==2) {
+					continue;
+				}
 		}
 	}
+	}
 }
+
+
+
