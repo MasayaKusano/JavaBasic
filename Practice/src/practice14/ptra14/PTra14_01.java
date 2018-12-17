@@ -6,6 +6,7 @@
  */
 package practice14.ptra14;
 
+
 public class PTra14_01 {
 
 	/*
@@ -22,5 +23,6 @@ public class PTra14_01 {
 	 * 		継承
 	 * 		高度な継承
 	 */
+
 
 }

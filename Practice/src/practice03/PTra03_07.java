@@ -51,8 +51,12 @@ public class PTra03_07 {
 			default:
 				System.out.println("選択したのは,1～5以外です");
 		}
-		
-				
+
+	   /*  if (num < 1 || num > 5) {
+		*	System.out.println("選択したのは,1～5以外です");
+		*  } else {
+		*/	System.out.println(num);
+
 		}
 	}
 

@@ -19,7 +19,7 @@ public class PTra02_06 {
 
 		int temp = x;
 		x = y;
-		y = temp;
+		//y = temp;
 
 		// ここから下は修正しないでください
 		System.out.println("x:" + x);	// 「x:50」が出力される

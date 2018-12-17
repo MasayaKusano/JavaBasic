@@ -1,10 +1,6 @@
 package practice09;
-/*
- * PTra09_02.java
- *   作成	LIKEIT	2017
- *------------------------------------------------------------
- * Copyright(c) Rhizome Inc. All Rights Reserved.
- */
+
+import practice09.util.Util;
 
 public class PTra09_02 {
 	public static void main(String[] args) {
@@ -16,5 +12,12 @@ public class PTra09_02 {
 
 		// ★ ランダムに並び替えた後の配列を前から順に全て表示してください
 
+		for (String aaa : Util.shuffleArray(array)) {
+            System.out.print(aaa);
+        }
 	}
 }
+
+		//どちらでも
+		//String[] aaa = Util.shuffleArray(array);
+		//System.out.println(aaa[0] + aaa[1] + aaa[2] + aaa[3] + aaa[4]);

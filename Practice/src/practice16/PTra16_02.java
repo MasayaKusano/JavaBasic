@@ -19,5 +19,24 @@ public class PTra16_02 {
 		double d = 453.592;
 
 		// ★ 上記基本型を、それぞれのラッパークラスに代入してください
+
+		Boolean aa =  b;
+		Byte  aaa= by;
+		Short aaaa= s ;
+		Character  aaaaa= c;
+		Integer aaaaaa= i;
+		Long  aaaaaaa= l;
+		Float  aaaaaaaa= f;
+		Double aaaaaaaaa=  d;
+
+
+		 System.out.println(aa);
+	     System.out.println(aaa);
+	     System.out.println(aaaa);
+	     System.out.println(aaaaa);
+	     System.out.println(aaaaaa);
+	     System.out.println(aaaaaaa);
+	     System.out.println(aaaaaaaa);
+	     System.out.println(aaaaaaaaa);
 	}
 }

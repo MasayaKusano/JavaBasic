@@ -29,6 +29,8 @@ public class PTra05_04 {
 
 			String line = scanner.nextLine();
 
+			loop = false;
+
 			switch (line) {
 			case "0":
 				System.out.println("日曜");
@@ -59,11 +61,12 @@ public class PTra05_04 {
 				loop = false;
 				break;
 
-			default:System.out.println("0～6の整数を入力してください");
-				
+			default:System.out.println("正しい値を入力してください");
+			loop = true;
+
 
 			}
-			System.out.println("プログラムを終了します");
+
 		}
 
 	}

@@ -19,7 +19,7 @@ public class PTra07_02 {
 
 		int[] array = new int[1000];
 		for(int i = 0; i < 1000; i++){
-			array[i]=1+i;
+			array[i]=i+1;
 			  System.out.println(array[i]);
 		}
 {

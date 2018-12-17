@@ -36,7 +36,7 @@ public class PTra06_07 {
 			System.out.println();
 
 	}
-		 for (int x = 0; x < 6; x++) {
+		 for (int x = 0; x < 5; x++) {
 	            for (int y = 5; y > 0; y--) {
 	            	if(x<y)  {
 						System.out.print("■");

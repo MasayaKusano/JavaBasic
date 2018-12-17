@@ -10,7 +10,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 /**
- * ファイルの読み込みを行います。
+ * ファイルの読み込みを行います。t
  * @author Rhizome
  *
  */
